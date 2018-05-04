@@ -1,0 +1,203 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+  <title>MetroCitizen Voice</title>
+  <meta name="description" content="Our motive and goal is to provide platform for citizen to raise their voice and contribute to society." />
+  <meta name="keywords" content="raise voice,complaints,citizen comaplaint,citizen voice,metrocitizen voice,metrocitizen awaz" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+  <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+  </script> 
+  <script>
+        function check()
+        {
+            if(frm.userid.value==0)
+                alert('Id is Required');
+            if(frm.pass.value==0)
+                alert('Password is Required');
+        }
+    </script>
+
+  
+</head>
+     
+<body>
+  <div id="main">
+
+	<div id="menubar">
+	  <div id="welcome">
+	    <h1><a href="#">MetroCitizen's Voice</a></h1>
+	  </div><!--close welcome-->
+      <div id="menu_items">
+	    <ul id="menu">
+          <li class="current"><a href="index.html">Home</a></li>
+          <li><a href="ourwork.html">Our Work</a></li>
+           <li><a href="ourwork.html">Strategy</a></li>
+          <li><a href="News.html">News</a></li>
+          <li><a href="Strategy.html">Gallery</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div><!--close menu-->
+    </div><!--close menubar-->
+    <div id="site_content">
+      <div id="banner_image">
+        <div id="slider-wrapper">
+          <div id="slider" class="nivoSlider"> <img src="images/citizen.jpg" alt="" /> <img src="images/citizen1.jpg" alt="" /> <img src="images/citizen2.jpg" alt="" /> <img src="images/citizen3.jpg" alt="" /> <img src="images/citizen4.jpg" alt="" /></div>
+          <!--close slider-->
+        </div>
+        <!--close slider_wrapper-->
+      </div>
+      <p>
+        <!--close banner_image-->
+      </p>
+        <br><br>
+      <div class="sidebar_container">
+        <div class="sidebar">
+          <div class="sidebar_item">
+            <form action="LoginCode.jsp" name="frm">
+              <table height="150" width="300" align="right">
+                <tr bgcolor="white">
+                    
+                  <td colspan="2" align="center"><font color="000066"><b>C I T I Z E N &nbsp;&nbsp;&nbsp; L O G I N </b></font></td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td>Id</td>
+                  <td><input type="text" name="userid" /></td>
+                </tr>
+                <tr>
+                  <td>Password</td>
+                  <td><input type="password" name="pass" /></td>
+                </tr>
+                <tr>
+                  <td height="42" colspan="2" align="center"><input type="submit" value="Login" onClick="check()" /></td>
+                </tr>
+              </table>
+            </form>
+          </div>
+          <!--close sidebar_item-->
+        </div>
+        <!--close sidebar-->
+        <div class="sidebar">
+          <div class="sidebar_item">
+            <form action="SignUpCode.jsp">
+              <table height="350" width="300"  align="right" >
+                <tr bgcolor="white">
+                  <td colspan="2" align="center"><font color="000066"><b>C I T I Z E N &nbsp;&nbsp;&nbsp; S I G N U P</b></font></td>
+                </tr>
+                <tr>
+                 
+                  <td>&nbsp;</td>
+                </tr>
+                
+                  <td>Name</td>
+                  <td><input type="text" name="name" /></td>
+                </tr>
+                
+                <tr>
+                  <td>EMail Id</td>
+                  <td><input type="text" name="mailid" /></td>
+                </tr>
+                 <tr>
+                  <td>Residency</td>
+                  <td><input type="text" name="residency" /></td>
+                </tr>
+                 <tr>
+                  <td>Gender</td>
+                  <td><input type="text" name="gender" /></td>
+                </tr>
+                 <tr>
+                  <td>Occupation</td>
+                  <td><input type="text" name="occupation" /></td>
+                </tr>
+                <tr>
+                  <td>Address</td>
+                  <td><textarea name="address"></textarea></td>
+                </tr>
+                <tr>
+                  <td>Id</td>
+                  <td><input type="text" name="userid" /></td>
+                </tr>
+                <tr>
+                <tr>
+                  <td>Password</td>
+                  <td><input type="password" name="pass" /></td>
+                </tr>
+                <tr>
+                  <td height="33" colspan="2" align="center">
+                    <input type="submit" value="Create" name="btn2" />
+                    <input type="reset" value="Reset" /></td>
+                </tr>
+              </table>
+            </form>
+          </div>
+          <!--close sidebar_item-->
+        </div>
+        <!--close sidebar-->
+      </div>
+      <!--close sidebar_container-->
+      <div id="content">
+        <div class="content_item">
+          <h2>Our Goal</h2>
+          <p>Most of us want our lives to mean something. Given the chance, we would make the biggest impact possible, especially on behalf of those who need our attention and our protection.</p>
+          <p>Citizen Voice is a new and growing group of people who do more than care—they act. Together, we're inspiring, informing and involving citizens on behalf of our neighborhoods, our communities, our regions.</p>
+          <p>We connect citizen with developers and people who hold certain responsibilty. We give them a platform and opportunity to raise their voice and give their contribution to the betterment of the society and people.</p>
+          <p>All issues related to developement and upliftment can be raised and we hold responsibity to forward it to the responsible people and officers.</p>
+          <p>Be Free to raise Your Voice!!</p>
+          <p>Together we Can make Difference!!</p>
+          <p>Our Society is Our Responsibility!!</p>
+          <p>&nbsp; </p>
+          <p><strong>Citizen Voice...involving citizens...changing for good.</strong></p>
+        </div>
+        <!--close content_container-->
+      </div>
+      <!--close content_item-->
+    
+    <!--close content-->   
+	
+	<div id="content_blue">
+	    <div class="content_blue_container_box">
+		  <h4>Articles And Posters</h4>
+	      <p> You can Provode your Articles and Views here!!</p>
+		  <div class="readmore">
+		    <a href="#">Read more</a>
+		  </div><!--close readmore-->
+	    </div><!--close content_blue_container_box-->
+<div class="content_blue_container_box">
+         <h4>Latest News</h4>
+	      <p> Phasellus laoreet feugiat risus. Ut tincidunt, ante vel fermentum iaculis.</p>
+	      <div class="readmore">
+		    <a href="#">Read more</a>
+		  </div><!--close readmore-->
+	    </div><!--close content_blue_container_box-->
+        <div class="content_blue_container_boxl">
+		  <h4>Latest Projects</h4>
+	      <p> Phasellus laoreet feugiat risus. Ut tincidunt, ante vel fermentum iaculis.</p>
+	      <div class="readmore">
+		    <a href="#">Read more</a>
+		  </div><!--close readmore-->	  
+	    </div><!--close content_blue_container_box1-->      
+	    <br style="clear:both"/>
+      </div>
+  </div><!--close site_content--> 
+ 
+  
+  </div><!--close main-->
+ 
+  <div id="footer">
+	  <a href="http://validator.w3.org/check?uri=referer">Valid XHTML</a> | <a href="http://fotogrph.com/">Images</a> | Heart Internet  <a href="http://www.heartinternet.co.uk/web-hosting/">Website Hosting</a> | website template by <a href="http://www.araynordesign.co.uk">ARaynorDesign</a>
+  </div><!--close footer--> 
+  
+  
+  </body>
+</html>
